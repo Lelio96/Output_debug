@@ -1,0 +1,462 @@
+Running 'gradlew :app:assembleRelease' in /home/expo/workingdir/build/frontend/android
+Welcome to Gradle 8.10.2!
+Here are the highlights of this release:
+ - Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Configure project :expo-modules-core
+WARNING: The following problems were found when resolving the SDK location:
+Where: sdk.dir property in local.properties file. Problem: Directory does not exist
+> Configure project :expo
+Using expo modules
+  - [32mexpo-asset[0m (11.0.5)
+  - [32mexpo-constants[0m (17.0.8)
+- [32mexpo-file-system[0m (18.0.12)
+  - [32mexpo-font[0m (13.0.4)
+  - [32mexpo-keep-awake[0m (14.0.3)
+  - [32mexpo-modules-core[0m (2.2.3)
+  - [32mexpo-system-ui[0m (4.0.9)
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.6.0
+Gradle: 8.10.2
+> Configure project :react-native-video
+Kotlin version is correct: 1.9.25
+AndroidX version is correct: 1.9.3
+useExoplayerIMA: false
+useExoplayerSmoothStreaming: true
+useExoplayerDash: true
+useExoplayerHls: true
+useExoplayerRtsp: false
+buildFromSource: false
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preReleaseBuild UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:generateReleaseBuildConfig
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-file-system:preReleaseBuild UP-TO-DATE
+> Task :expo-file-system:writeReleaseAarMetadata
+> Task :expo-asset:writeReleaseAarMetadata
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-constants:createExpoConfig
+> Task :expo-constants:preBuild
+> Task :expo-constants:preReleaseBuild
+> Task :expo-font:preReleaseBuild UP-TO-DATE
+> Task :expo-keep-awake:preReleaseBuild UP-TO-DATE
+> Task :expo-keep-awake:writeReleaseAarMetadata
+> Task :expo-font:writeReleaseAarMetadata
+> Task :expo-system-ui:preBuild UP-TO-DATE
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-system-ui:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+> Task :expo-constants:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :expo-system-ui:writeReleaseAarMetadata
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:writeReleaseAarMetadata
+> Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preReleaseBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preReleaseBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeReleaseAarMetadata
+> Task :react-native-video:preBuild UP-TO-DATE
+> Task :react-native-video:preReleaseBuild UP-TO-DATE
+> Task :react-native-screens:writeReleaseAarMetadata
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-video:writeReleaseAarMetadata
+> Task :react-native-webview:writeReleaseAarMetadata
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :expo-asset:generateReleaseResValues
+> Task :expo-asset:generateReleaseResources
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set.
+Proceeding without mode-specific .env
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-reanimated:writeReleaseAarMetadata
+> Task :expo-constants:generateReleaseResValues
+> Task :expo-constants:generateReleaseResources
+> Task :expo-constants:packageReleaseResources
+> Task :expo-file-system:generateReleaseResValues
+> Task :expo-asset:packageReleaseResources
+> Task :expo-file-system:generateReleaseResources
+> Task :expo-font:generateReleaseResValues
+> Task :expo-font:generateReleaseResources
+> Task :expo-font:packageReleaseResources
+> Task :expo-keep-awake:generateReleaseResValues
+> Task :expo-keep-awake:generateReleaseResources
+> Task :expo-keep-awake:packageReleaseResources
+> Task :expo-modules-core:generateReleaseResValues
+> Task :expo-modules-core:generateReleaseResources
+> Task :expo-modules-core:packageReleaseResources
+> Task :expo-system-ui:generateReleaseResValues
+> Task :expo-system-ui:generateReleaseResources
+> Task :expo:generateExpoModulesPackageListTask
+> Task :expo:preBuild
+> Task :expo:preReleaseBuild
+> Task :expo:writeReleaseAarMetadata
+> Task :expo:generateReleaseResValues
+> Task :expo-file-system:packageReleaseResources
+> Task :expo:generateReleaseResources
+> Task :react-native-async-storage_async-storage:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:generateReleaseResources
+> Task :expo-system-ui:packageReleaseResources
+> Task :expo:packageReleaseResources
+> Task :react-native-async-storage_async-storage:packageReleaseResources
+> Task :react-native-safe-area-context:generateReleaseResValues
+> Task :react-native-reanimated:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResValues
+> Task :react-native-reanimated:generateReleaseResources
+> Task :react-native-gesture-handler:generateReleaseResources
+> Task :react-native-safe-area-context:generateReleaseResources
+> Task :react-native-reanimated:packageReleaseResources
+> Task :react-native-safe-area-context:packageReleaseResources
+> Task :react-native-gesture-handler:packageReleaseResources
+> Task :react-native-video:generateReleaseResValues
+> Task :react-native-screens:generateReleaseResValues
+> Task :react-native-webview:generateReleaseResValues
+> Task :react-native-video:generateReleaseResources
+> Task :react-native-webview:generateReleaseResources
+> Task :react-native-screens:generateReleaseResources
+> Task :react-native-webview:packageReleaseResources
+> Task :expo:extractDeepLinksRelease
+> Task :react-native-video:packageReleaseResources
+> Task :expo-asset:extractDeepLinksRelease
+> Task :react-native-screens:packageReleaseResources
+> Task :expo-constants:extractDeepLinksRelease
+> Task :expo-constants:processReleaseManifest
+> Task :expo:processReleaseManifest
+> Task :expo-asset:processReleaseManifest
+> Task :expo-file-system:extractDeepLinksRelease
+> Task :expo-font:extractDeepLinksRelease
+> Task :expo-keep-awake:extractDeepLinksRelease
+> Task :expo-font:processReleaseManifest
+> Task :expo-keep-awake:processReleaseManifest
+> Task :expo-modules-core:extractDeepLinksRelease
+> Task :expo-system-ui:extractDeepLinksRelease
+> Task :expo-file-system:processReleaseManifest
+/home/expo/workingdir/build/frontend/node_modules/expo-file-system/android/src/main/AndroidManifest.xml:6:9-8:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+> Task :expo-modules-core:processReleaseManifest
+/home/expo/workingdir/build/frontend/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+> Task :expo-system-ui:processReleaseManifest
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :react-native-reanimated:extractDeepLinksRelease
+> Task :react-native-async-storage_async-storage:processReleaseManifest
+package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :react-native-safe-area-context:extractDeepLinksRelease
+> Task :react-native-screens:extractDeepLinksRelease
+> Task :react-native-reanimated:processReleaseManifest
+> Task :react-native-video:extractDeepLinksRelease
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/react-native-safe-area-context/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/react-native-safe-area-context/android/src/main/AndroidManifest.xml.
+> Task :react-native-webview:extractDeepLinksRelease
+> Task :react-native-video:processReleaseManifest
+> Task :react-native-screens:processReleaseManifest
+> Task :react-native-webview:processReleaseManifest
+> Task :expo:compileReleaseLibraryResources
+> Task :expo-asset:compileReleaseLibraryResources
+> Task :expo-constants:compileReleaseLibraryResources
+> Task :expo-asset:parseReleaseLocalResources
+> Task :expo-constants:parseReleaseLocalResources
+> Task :expo:parseReleaseLocalResources
+> Task :expo:generateReleaseRFile
+> Task :expo-asset:generateReleaseRFile
+> Task :expo-constants:generateReleaseRFile
+> Task :expo-keep-awake:compileReleaseLibraryResources
+> Task :expo-font:compileReleaseLibraryResources
+> Task :expo-font:parseReleaseLocalResources
+> Task :expo-file-system:parseReleaseLocalResources
+> Task :expo-font:generateReleaseRFile
+> Task :expo-file-system:generateReleaseRFile
+> Task :expo-keep-awake:parseReleaseLocalResources
+> Task :expo-modules-core:compileReleaseLibraryResources
+> Task :expo-keep-awake:generateReleaseRFile
+> Task :expo-system-ui:compileReleaseLibraryResources
+> Task :expo-modules-core:parseReleaseLocalResources
+> Task :expo-system-ui:parseReleaseLocalResources
+> Task :expo-modules-core:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+> Task :expo-system-ui:generateReleaseRFile
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:generateReleaseRFile
+> Task :expo-file-system:compileReleaseLibraryResources
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-reanimated:compileReleaseLibraryResources
+> Task :react-native-safe-area-context:compileReleaseLibraryResources
+> Task :react-native-reanimated:parseReleaseLocalResources
+> Task :react-native-safe-area-context:parseReleaseLocalResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :react-native-safe-area-context:generateReleaseRFile
+> Task :react-native-reanimated:generateReleaseRFile
+> Task :react-native-screens:parseReleaseLocalResources
+> Task :react-native-screens:compileReleaseLibraryResources
+> Task :react-native-video:compileReleaseLibraryResources
+> Task :react-native-screens:generateReleaseRFile
+> Task :react-native-video:parseReleaseLocalResources
+> Task :react-native-webview:compileReleaseLibraryResources
+> Task :expo:checkKotlinGradlePluginConfigurationErrors
+> Task :expo:generateReleaseBuildConfig
+> Task :expo-asset:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-webview:parseReleaseLocalResources
+> Task :expo-asset:generateReleaseBuildConfig
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-webview:generateReleaseRFile
+> Task :react-native-video:generateReleaseRFile
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-modules-core:generateReleaseBuildConfig
+> Task :expo-constants:generateReleaseBuildConfig
+> Task :expo-asset:javaPreCompileRelease
+> Task :expo-file-system:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-constants:javaPreCompileRelease
+> Task :expo-font:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:generateReleaseBuildConfig
+> Task :expo-file-system:generateReleaseBuildConfig
+> Task :expo-file-system:javaPreCompileRelease
+> Task :expo-keep-awake:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:javaPreCompileRelease
+> Task :expo-system-ui:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-keep-awake:generateReleaseBuildConfig
+> Task :expo-system-ui:generateReleaseBuildConfig
+> Task :expo-keep-awake:javaPreCompileRelease
+> Task :expo-system-ui:javaPreCompileRelease
+> Task :expo:javaPreCompileRelease
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+> Task :react-native-async-storage_async-storage:generateReleaseBuildConfig
+> Task :react-native-reanimated:generateReleaseBuildConfig
+> Task :react-native-async-storage_async-storage:javaPreCompileRelease
+> Task :react-native-reanimated:javaPreCompileRelease
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :app:createBundleReleaseJsAndAssets
+Starting Metro Bundler
+Android Bundled 1668ms index.js (1060 modules)
+Writing bundle output to: /home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle
+Writing sourcemap output to: /home/expo/workingdir/build/frontend/android/app/build/intermediates/sourcemaps/react/release/index.android.bundle.packager.map
+Copying 21 asset files
+Done writing bundle output
+Done writing sourcemap output
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:3976:16: warning: the variable "SharedArrayBuffer" was not declared in function "from"
+if (typeof SharedArrayBuffer !== 'undefined' && (isInstance(value, Shared...
+               ^~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:7865:23: warning: the variable "DebuggerInternal" was not declared in function "__shouldPauseOnThrow"
+        return typeof DebuggerInternal !== 'undefined' && DebuggerInternal.sh...
+                      ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:18239:7: warning: the variable "setTimeout" was not declared in function "logCapturedError"
+      setTimeout(function () {
+      ^~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16473:31: warning: the variable "nativeFabricUIManager" was not declared in anonymous function " 391#"
+  var _nativeFabricUIManage = nativeFabricUIManager,
+                              ^~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16501:21: warning: the variable "clearTimeout" was not declared in anonymous function " 391#"
+    cancelTimeout = clearTimeout;
+                    ^~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16514:51: warning: the variable "RN$enableMicrotasksInReact" was not declared in anonymous function " 391#"
+... "undefined" !== typeof RN$enableMicrotasksInReact && !!RN$enableMicrotask...
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16515:47: warning: the variable "queueMicrotask" was not declared in anonymous function " 391#"
+...otask = "function" === typeof queueMicrotask ? queueMicrotask : scheduleTi...
+                                 ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:20936:30: warning: the variable "__REACT_DEVTOOLS_GLOBAL_HOOK__" was not declared in anonymous function " 391#"
+  if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:22372:5: warning: the variable "setImmediate" was not declared in function "handleResolved"
+    setImmediate(function () {
+    ^~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25646:5: warning: the variable "fetch" was not declared in anonymous function " 614#"
+    fetch,
+    ^~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25647:5: warning: the variable "Headers" was not declared in anonymous function " 614#"
+    Headers,
+    ^~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25648:5: warning: the variable "Request" was not declared in anonymous function " 614#"
+    Request,
+    ^~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25649:5: warning: the variable "Response" was not declared in anonymous function " 614#"
+    Response
+    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25806:24: warning: the variable "FileReader" was not declared in function "readBlobAsArrayBuffer"
+      var reader = new FileReader();
+                       ^~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25861:44: warning: the variable "URLSearchParams" was not declared in anonymous function " 625#"
+...e if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body...
+                                 ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25980:26: warning: the variable "AbortController" was not declared in anonymous function " 631#"
+          var ctrl = new AbortController();
+                         ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:26114:23: warning: the variable "XMLHttpRequest" was not declared in anonymous function " 635#"
+        var xhr = new XMLHttpRequest();
+                      ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25659:71: warning: the variable "self" was not declared in anonymous function " 617#"
+...undefined' && globalThis || typeof self !== 'undefined' && self ||
+                                      ^~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28529:26: warning: the variable "navigator" was not declared in anonymous function " 794#"
+  "undefined" !== typeof navigator && undefined !== navigator.scheduling && u...
+                         ^~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28639:37: warning: the variable "MessageChannel" was not declared in anonymous function " 794#"
+  };else if ("undefined" !== typeof MessageChannel) {
+                                    ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28654:34: warning: the variable "nativeRuntimeScheduler" was not declared in anonymous function " 794#"
+... = "undefined" !== typeof nativeRuntimeScheduler ? nativeRuntimeScheduler....
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:38523:34: warning: the variable "requestAnimationFrame" was not declared in function "start 9#"
+...    this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
+                              ^~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:60781:9: warning: the variable "REACT_NAVIGATION_DEVTOOLS" was not declared in anonymous arrow function " 2078#"
+        REACT_NAVIGATION_DEVTOOLS.set(refContainer.current, {
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:69959:11: warning: the variable "_WORKLET" was not declared in function "assertEasingIsWorklet"
+      if (_WORKLET) {
+          ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:71742:94: warning: the variable "location" was not declared in function "registerSensor 1#"
+...(0, _PlatformChecker.isWeb)() && location.protocol !== 'https:' ? ' Make s...
+                                    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72204:12: warning: the variable "__reanimatedLoggerConfig" was not declared in function "replaceLoggerImplementation"
+        ...__reanimatedLoggerConfig,
+           ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72805:26: warning: Direct call to eval(), but lexical scope is not supported.
+            workletFun = eval('(' + initData.code + '\n)');
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72828:112: warning: the variable "_toString" was not declared in function "valueUnpacker"
+...recognized by value unpacker: "${_toString(objectToUnpack)}".`);
+                                    ^~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:89799:26: warning: the variable "structuredClone" was not declared in function "createAnimationWithInitialValues"
+    var animationStyle = structuredClone(_config.AnimationsData[animationName...
+                         ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90119:5: warning: the variable "document" was not declared in function "configureWebLayoutAnimations"
+    document.getElementById(PREDEFINED_WEB_ANIMATIONS_ID) !== null) {
+    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90214:27: warning: the variable "HTMLElement" was not declared in function "findDescendantWithExitingAnimation"
+    if (!(node instanceof HTMLElement)) {
+                          ^~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90240:24: warning: the variable "MutationObserver" was not declared in function "addHTMLMutationObserver"
+    var observer = new MutationObserver(mutationsList => {
+                       ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90285:41: warning: the variable "getComputedStyle" was not declared in function "fixElementPosition"
+...entBorderTopValue = parseInt(getComputedStyle(parent).borderTopWidth);
+                                ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:94260:5: warning: the variable "jest" was not declared in arrow function "beforeTest"
+    jest.useFakeTimers();
+    ^~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:94837:26: warning: the variable "_getAnimationTimestamp" was not declared in function "computeEasingProgress"
+      var elapsedTime = (_getAnimationTimestamp() - startingTimestamp) / 1000;
+                         ^~~~~~~~~~~~~~~~~~~~~~
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+/home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java:84: warning: [removal] onCatalystInstanceDestroy() in NativeModule has been deprecated and marked for removal
+  public void onCatalystInstanceDestroy() {
+              ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/javaPackage/java/com/reactnativecommunity/asyncstorage/AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :expo-modules-core:javaPreCompileRelease
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarRelease
+> Task :react-native-reanimated:bundleLibCompileToJarRelease
+> Task :react-native-gesture-handler:javaPreCompileRelease
+> Task :app:generateReleaseResValues
+> Task :app:checkReleaseAarMetadata
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-safe-area-context:generateReleaseBuildConfig
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources FAILED
+ERROR: [mipmap-hdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp [mipmap-hdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-hdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher.png [mipmap-hdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-hdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png [mipmap-hdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp [mipmap-xxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png [mipmap-xxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png [mipmap-xxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp [mipmap-xhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png [mipmap-xhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png [mipmap-xhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp [mipmap-xxxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png [mipmap-xxxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-xxxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png [mipmap-xxxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-mdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp [mipmap-mdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-mdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher.png [mipmap-mdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher.webp: Resource and asset merger: Duplicate resources
+ERROR: [mipmap-mdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png [mipmap-mdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp: Resource and asset merger: Duplicate resources
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'getter for uiImplementation: UIImplementation!' is deprecated. Deprecated in Java
+> Task :expo-modules-core:compileReleaseKotlin
+> Task :react-native-gesture-handler:compileReleaseKotlin
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/RNGestureHandlerPackage.kt:69:42 'constructor ReactModuleInfo(String, String, Boolean, Boolean, Boolean, Boolean, Boolean)' is deprecated. use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)]
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/core/FlingGestureHandler.kt:25:26 Parameter 'event' is never used
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:72:62 The corresponding parameter in the supertype 'ViewGroupManager' is named 'borderRadius'. This may cause problems when calling this function with named arguments.
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:77:63 The corresponding parameter in the supertype 'ViewGroupManager' is named 'borderRadius'. This may cause problems when calling this function with named arguments.
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:82:65 The corresponding parameter in the supertype 'ViewGroupManager' is named 'borderRadius'. This may cause problems when calling this function with named arguments.
+w: file:///home/expo/workingdir/build/frontend/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerButtonViewManager.kt:87:66 The corresponding parameter in the supertype 'ViewGroupManager' is named 'borderRadius'. This may cause problems when calling this function with named arguments.
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':app:mergeReleaseResources'.
+> [mipmap-hdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp	[mipmap-hdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png: Error: Duplicate resources
+  [mipmap-hdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher.png	[mipmap-hdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher.webp: Error: Duplicate resources
+  [mipmap-hdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png	[mipmap-hdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp: Error: Duplicate resources
+  [mipmap-xxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp	[mipmap-xxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png: Error: Duplicate resources
+  [mipmap-xxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png	[mipmap-xxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp: Error: Duplicate resources
+  [mipmap-xxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png	[mipmap-xxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp: Error: Duplicate resources
+  [mipmap-xhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp	[mipmap-xhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png: Error: Duplicate resources
+  [mipmap-xhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png	[mipmap-xhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher.webp: Error: Duplicate resources
+  [mipmap-xhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png	[mipmap-xhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp: Error: Duplicate resources
+  [mipmap-xxxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp	[mipmap-xxxhdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png: Error: Duplicate resources
+  [mipmap-xxxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png	[mipmap-xxxhdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp: Error: Duplicate resources
+  [mipmap-xxxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png	[mipmap-xxxhdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp: Error: Duplicate resources
+  [mipmap-mdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp	[mipmap-mdpi-v4/ic_launcher_foreground] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png: Error: Duplicate resources
+  [mipmap-mdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher.png	[mipmap-mdpi-v4/ic_launcher] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher.webp: Error: Duplicate resources
+  [mipmap-mdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png	[mipmap-mdpi-v4/ic_launcher_round] /home/expo/workingdir/build/frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp: Error: Duplicate resources
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+BUILD FAILED in 2m 20s
+201 actionable tasks: 201 executed
+Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
