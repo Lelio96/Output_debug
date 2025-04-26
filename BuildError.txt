@@ -1,0 +1,412 @@
+Running 'gradlew :app:bundleRelease' in /home/expo/workingdir/build/frontend/android
+Welcome to Gradle 8.10.2!
+Here are the highlights of this release:
+- Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:settings-plugin:pluginDescriptors
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:compileKotlin
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Configure project :expo
+Using expo modules
+  - [32mexpo-asset[0m (11.0.5)
+  - [32mexpo-constants[0m (17.0.8)
+  - [32mexpo-file-system[0m (18.0.12)
+  - [32mexpo-font[0m (13.0.4)
+  - [32mexpo-keep-awake[0m (14.0.3)
+- [32mexpo-modules-core[0m (2.2.3)
+  - [32mexpo-system-ui[0m (4.0.9)
+> Configure project :react-native-google-mobile-ads
+:react-native-google-mobile-ads package.json found at /home/expo/workingdir/build/frontend/node_modules/react-native-google-mobile-ads/package.json
+**************************************************************************************************************
+WARNING: react-native-google-mobile-ads requires an 'android_app_id' property inside a 'react-native-google-mobile-ads' key in your app.json.
+         No android_app_id property was found in this location. The native Google Mobile Ads SDK will crash on startup without it.
+         You can safely ignore this warning if you are using our Expo config plugin.
+**************************************************************************************************************
+:react-native-google-mobile-ads package.json found at /home/expo/workingdir/build/frontend/node_modules/react-native-google-mobile-ads/package.json
+:react-native-google-mobile-ads:version set from package.json: 15.1.0 (15,1,0 - 15001000)
+:react-native-google-mobile-ads:android.compileSdk using custom value: 35
+:react-native-google-mobile-ads:android.targetSdk using custom value: 34
+:react-native-google-mobile-ads:android.minSdk using custom value: 24
+:react-native-google-mobile-ads:reactNativeAndroidDir /home/expo/workingdir/build/frontend/node_modules/react-native/android
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.6.0
+Gradle: 8.10.2
+> Configure project :react-native-video
+Kotlin version is correct: 1.9.25
+AndroidX version is correct: 1.9.3
+useExoplayerIMA: false
+useExoplayerSmoothStreaming: true
+useExoplayerDash: true
+useExoplayerHls: true
+useExoplayerRtsp: false
+buildFromSource: false
+> Task :expo-asset:preBuild UP-TO-DATE
+> Task :expo-asset:preReleaseBuild UP-TO-DATE
+> Task :expo-asset:generateReleaseResValues
+> Task :expo-asset:generateReleaseResources
+> Task :expo-constants:createExpoConfig
+> Task :expo-constants:preBuild
+> Task :expo-constants:preReleaseBuild
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set.
+Proceeding without mode-specific .env
+> Task :expo-constants:generateReleaseResValues
+> Task :expo-constants:generateReleaseResources
+> Task :expo-constants:packageReleaseResources
+> Task :expo-asset:packageReleaseResources
+> Task :expo-file-system:preBuild UP-TO-DATE
+> Task :expo-font:preBuild UP-TO-DATE
+> Task :expo-font:preReleaseBuild UP-TO-DATE
+> Task :expo-file-system:preReleaseBuild UP-TO-DATE
+> Task :expo-font:generateReleaseResValues
+> Task :expo-file-system:generateReleaseResValues
+> Task :expo-font:generateReleaseResources
+> Task :expo-file-system:generateReleaseResources
+> Task :expo-font:packageReleaseResources
+> Task :expo-keep-awake:preBuild UP-TO-DATE
+> Task :expo-keep-awake:preReleaseBuild UP-TO-DATE
+> Task :expo-keep-awake:generateReleaseResValues
+> Task :expo-keep-awake:generateReleaseResources
+> Task :expo-keep-awake:packageReleaseResources
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :expo-modules-core:preReleaseBuild UP-TO-DATE
+> Task :expo-modules-core:generateReleaseResValues
+> Task :expo-modules-core:generateReleaseResources
+> Task :expo-modules-core:packageReleaseResources
+> Task :expo-system-ui:preBuild UP-TO-DATE
+> Task :expo-system-ui:preReleaseBuild UP-TO-DATE
+> Task :expo-system-ui:generateReleaseResValues
+> Task :expo-file-system:packageReleaseResources
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preReleaseBuild UP-TO-DATE
+> Task :expo-system-ui:generateReleaseResources
+> Task :react-native-async-storage_async-storage:generateReleaseResValues
+> Task :react-native-async-storage_async-storage:generateReleaseResources
+> Task :expo-system-ui:packageReleaseResources
+> Task :react-native-async-storage_async-storage:packageReleaseResources
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preReleaseBuild UP-TO-DATE
+> Task :react-native-google-mobile-ads:preBuild UP-TO-DATE
+> Task :react-native-google-mobile-ads:preReleaseBuild UP-TO-DATE
+> Task :react-native-google-mobile-ads:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResValues
+> Task :react-native-gesture-handler:generateReleaseResources
+> Task :react-native-google-mobile-ads:generateReleaseResources
+> Task :react-native-gesture-handler:packageReleaseResources
+> Task :react-native-reanimated:assertLatestReactNativeWithNewArchitectureTask SKIPPED
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-google-mobile-ads:packageReleaseResources
+> Task :react-native-video:preBuild UP-TO-DATE
+> Task :react-native-video:preReleaseBuild UP-TO-DATE
+> Task :react-native-video:generateReleaseResValues
+> Task :react-native-video:generateReleaseResources
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :expo:generateExpoModulesPackageListTask
+> Task :expo:preBuild
+> Task :expo:preReleaseBuild
+> Task :expo:generateReleaseResValues
+> Task :expo:generateReleaseResources
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preReleaseBuild
+> Task :react-native-reanimated:generateReleaseResValues
+> Task :expo:packageReleaseResources
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-webview:preReleaseBuild UP-TO-DATE
+> Task :react-native-video:packageReleaseResources
+> Task :react-native-webview:generateReleaseResValues
+> Task :react-native-reanimated:generateReleaseResources
+> Task :expo:extractDeepLinksRelease
+> Task :react-native-webview:generateReleaseResources
+> Task :react-native-reanimated:packageReleaseResources
+> Task :react-native-webview:packageReleaseResources
+> Task :expo-asset:extractDeepLinksRelease
+> Task :expo-constants:extractDeepLinksRelease
+> Task :expo-asset:processReleaseManifest
+> Task :expo-constants:processReleaseManifest
+> Task :expo:processReleaseManifest
+> Task :expo-keep-awake:extractDeepLinksRelease
+> Task :expo-file-system:extractDeepLinksRelease
+> Task :expo-font:extractDeepLinksRelease
+> Task :expo-font:processReleaseManifest
+> Task :expo-keep-awake:processReleaseManifest
+> Task :expo-system-ui:extractDeepLinksRelease
+> Task :expo-modules-core:extractDeepLinksRelease
+> Task :expo-file-system:processReleaseManifest
+/home/expo/workingdir/build/frontend/node_modules/expo-file-system/android/src/main/AndroidManifest.xml:6:9-8:20 Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+> Task :react-native-async-storage_async-storage:extractDeepLinksRelease
+> Task :expo-system-ui:processReleaseManifest
+> Task :expo-modules-core:processReleaseManifest
+/home/expo/workingdir/build/frontend/node_modules/expo-modules-core/android/src/main/AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+> Task :react-native-gesture-handler:extractDeepLinksRelease
+> Task :react-native-google-mobile-ads:extractDeepLinksRelease
+> Task :react-native-async-storage_async-storage:processReleaseManifest
+package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/@react-native-async-storage/async-storage/android/src/main/AndroidManifest.xml.
+> Task :react-native-reanimated:extractDeepLinksRelease
+> Task :react-native-gesture-handler:processReleaseManifest
+> Task :react-native-video:extractDeepLinksRelease
+> Task :react-native-google-mobile-ads:processReleaseManifest
+package="io.invertase.googlemobileads" found in source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/react-native-google-mobile-ads/android/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.invertase.googlemobileads" from the source AndroidManifest.xml: /home/expo/workingdir/build/frontend/node_modules/react-native-google-mobile-ads/android/src/main/AndroidManifest.xml.
+> Task :react-native-reanimated:processReleaseManifest
+> Task :react-native-webview:extractDeepLinksRelease
+> Task :react-native-webview:processReleaseManifest
+> Task :react-native-video:processReleaseManifest
+> Task :expo:writeReleaseAarMetadata
+> Task :expo-asset:writeReleaseAarMetadata
+> Task :expo-constants:writeReleaseAarMetadata
+> Task :expo-file-system:writeReleaseAarMetadata
+> Task :expo-font:writeReleaseAarMetadata
+> Task :expo-modules-core:writeReleaseAarMetadata
+> Task :expo-keep-awake:writeReleaseAarMetadata
+> Task :expo-system-ui:writeReleaseAarMetadata
+> Task :react-native-gesture-handler:writeReleaseAarMetadata
+> Task :react-native-async-storage_async-storage:writeReleaseAarMetadata
+> Task :react-native-reanimated:writeReleaseAarMetadata
+> Task :react-native-google-mobile-ads:writeReleaseAarMetadata
+> Task :react-native-video:writeReleaseAarMetadata
+> Task :react-native-webview:writeReleaseAarMetadata
+> Task :expo-constants:compileReleaseLibraryResources
+> Task :expo-asset:compileReleaseLibraryResources
+> Task :expo:compileReleaseLibraryResources
+> Task :expo-asset:parseReleaseLocalResources
+> Task :expo-constants:parseReleaseLocalResources
+> Task :expo:parseReleaseLocalResources
+> Task :expo:generateReleaseRFile
+> Task :expo-asset:generateReleaseRFile
+> Task :expo-constants:generateReleaseRFile
+> Task :expo-keep-awake:compileReleaseLibraryResources
+> Task :expo-font:compileReleaseLibraryResources
+> Task :expo-keep-awake:parseReleaseLocalResources
+> Task :expo-font:parseReleaseLocalResources
+> Task :expo-file-system:parseReleaseLocalResources
+> Task :expo-font:generateReleaseRFile
+> Task :expo-file-system:generateReleaseRFile
+> Task :expo-modules-core:compileReleaseLibraryResources
+> Task :expo-keep-awake:generateReleaseRFile
+> Task :expo-modules-core:parseReleaseLocalResources
+> Task :expo-system-ui:compileReleaseLibraryResources
+> Task :expo-system-ui:parseReleaseLocalResources
+> Task :expo-modules-core:generateReleaseRFile
+> Task :react-native-async-storage_async-storage:compileReleaseLibraryResources
+> Task :expo-system-ui:generateReleaseRFile
+> Task :react-native-gesture-handler:compileReleaseLibraryResources
+> Task :react-native-async-storage_async-storage:parseReleaseLocalResources
+> Task :react-native-gesture-handler:parseReleaseLocalResources
+> Task :react-native-async-storage_async-storage:generateReleaseRFile
+> Task :expo-file-system:compileReleaseLibraryResources
+> Task :react-native-gesture-handler:generateReleaseRFile
+> Task :react-native-google-mobile-ads:compileReleaseLibraryResources
+> Task :react-native-reanimated:compileReleaseLibraryResources
+> Task :react-native-google-mobile-ads:parseReleaseLocalResources
+> Task :react-native-reanimated:parseReleaseLocalResources
+> Task :react-native-google-mobile-ads:generateReleaseRFile
+> Task :react-native-video:parseReleaseLocalResources
+> Task :react-native-reanimated:generateReleaseRFile
+> Task :react-native-video:compileReleaseLibraryResources
+> Task :expo:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-webview:compileReleaseLibraryResources
+> Task :expo:generateReleaseBuildConfig
+> Task :expo-asset:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-video:generateReleaseRFile
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-asset:generateReleaseBuildConfig
+> Task :react-native-webview:parseReleaseLocalResources
+> Task :expo-modules-core:generateReleaseBuildConfig
+> Task :react-native-webview:generateReleaseRFile
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-asset:javaPreCompileRelease
+> Task :expo-file-system:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-file-system:generateReleaseBuildConfig
+> Task :expo-constants:generateReleaseBuildConfig
+> Task :app:createBundleReleaseJsAndAssets
+Starting Metro Bundler
+> Task :expo-constants:javaPreCompileRelease
+> Task :expo-font:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-file-system:javaPreCompileRelease
+> Task :expo-keep-awake:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-font:generateReleaseBuildConfig
+> Task :expo-keep-awake:generateReleaseBuildConfig
+> Task :expo-keep-awake:javaPreCompileRelease
+> Task :expo-font:javaPreCompileRelease
+> Task :expo-system-ui:checkKotlinGradlePluginConfigurationErrors
+> Task :expo:javaPreCompileRelease
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-system-ui:generateReleaseBuildConfig
+> Task :expo-system-ui:javaPreCompileRelease
+> Task :react-native-gesture-handler:generateReleaseBuildConfig
+> Task :react-native-reanimated:generateReleaseBuildConfig
+> Task :react-native-gesture-handler:javaPreCompileRelease
+> Task :react-native-google-mobile-ads:checkKotlinGradlePluginConfigurationErrors
+> Task :react-native-google-mobile-ads:generateReleaseBuildConfig
+> Task :react-native-reanimated:javaPreCompileRelease
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :app:createBundleReleaseJsAndAssets
+Android Bundled 1999ms node_modules/expo/AppEntry.js (1058 modules)
+Writing bundle output to: /home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle
+Writing sourcemap output to: /home/expo/workingdir/build/frontend/android/app/build/intermediates/sourcemaps/react/release/index.android.bundle.packager.map
+Copying 21 asset files
+Done writing bundle output
+Done writing sourcemap output
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:3899:16: warning: the variable "SharedArrayBuffer" was not declared in function "from"
+    if (typeof SharedArrayBuffer !== 'undefined' && (isInstance(value, Shared...
+               ^~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:7788:23: warning: the variable "DebuggerInternal" was not declared in function "__shouldPauseOnThrow"
+        return typeof DebuggerInternal !== 'undefined' && DebuggerInternal.sh...
+                      ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:18162:7: warning: the variable "setTimeout" was not declared in function "logCapturedError"
+      setTimeout(function () {
+      ^~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16396:31: warning: the variable "nativeFabricUIManager" was not declared in anonymous function " 392#"
+  var _nativeFabricUIManage = nativeFabricUIManager,
+                              ^~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16424:21: warning: the variable "clearTimeout" was not declared in anonymous function " 392#"
+    cancelTimeout = clearTimeout;
+                    ^~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16437:51: warning: the variable "RN$enableMicrotasksInReact" was not declared in anonymous function " 392#"
+... "undefined" !== typeof RN$enableMicrotasksInReact && !!RN$enableMicrotask...
+                           ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:16438:47: warning: the variable "queueMicrotask" was not declared in anonymous function " 392#"
+...otask = "function" === typeof queueMicrotask ? queueMicrotask : scheduleTi...
+                                 ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:20859:30: warning: the variable "__REACT_DEVTOOLS_GLOBAL_HOOK__" was not declared in anonymous function " 392#"
+  if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:22295:5: warning: the variable "setImmediate" was not declared in function "handleResolved"
+    setImmediate(function () {
+    ^~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25569:5: warning: the variable "fetch" was not declared in anonymous function " 615#"
+    fetch,
+    ^~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25570:5: warning: the variable "Headers" was not declared in anonymous function " 615#"
+    Headers,
+    ^~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25571:5: warning: the variable "Request" was not declared in anonymous function " 615#"
+    Request,
+    ^~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25572:5: warning: the variable "Response" was not declared in anonymous function " 615#"
+    Response
+    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25729:24: warning: the variable "FileReader" was not declared in function "readBlobAsArrayBuffer"
+      var reader = new FileReader();
+                       ^~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25784:44: warning: the variable "URLSearchParams" was not declared in anonymous function " 626#"
+...e if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body...
+                                 ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25903:26: warning: the variable "AbortController" was not declared in anonymous function " 632#"
+          var ctrl = new AbortController();
+                         ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:26037:23: warning: the variable "XMLHttpRequest" was not declared in anonymous function " 636#"
+        var xhr = new XMLHttpRequest();
+                      ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:25582:71: warning: the variable "self" was not declared in anonymous function " 618#"
+...undefined' && globalThis || typeof self !== 'undefined' && self ||
+                                      ^~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28452:26: warning: the variable "navigator" was not declared in anonymous function " 795#"
+  "undefined" !== typeof navigator && undefined !== navigator.scheduling && u...
+                         ^~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28562:37: warning: the variable "MessageChannel" was not declared in anonymous function " 795#"
+  };else if ("undefined" !== typeof MessageChannel) {
+                                    ^~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:28577:34: warning: the variable "nativeRuntimeScheduler" was not declared in anonymous function " 795#"
+... = "undefined" !== typeof nativeRuntimeScheduler ? nativeRuntimeScheduler....
+                             ^~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:38446:34: warning: the variable "requestAnimationFrame" was not declared in function "start 9#"
+...    this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
+                              ^~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:60586:9: warning: the variable "REACT_NAVIGATION_DEVTOOLS" was not declared in anonymous arrow function " 2074#"
+REACT_NAVIGATION_DEVTOOLS.set(refContainer.current, {
+        ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:69764:11: warning: the variable "_WORKLET" was not declared in function "assertEasingIsWorklet"
+      if (_WORKLET) {
+^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:71547:94: warning: the variable "location" was not declared in function "registerSensor 1#"
+...(0, _PlatformChecker.isWeb)() && location.protocol !== 'https:' ? ' Make s...
+                                    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72009:12: warning: the variable "__reanimatedLoggerConfig" was not declared in function "replaceLoggerImplementation"
+        ...__reanimatedLoggerConfig,
+           ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72610:26: warning: Direct call to eval(), but lexical scope is not supported.
+            workletFun = eval('(' + initData.code + '\n)');
+                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:72633:112: warning: the variable "_toString" was not declared in function "valueUnpacker"
+...recognized by value unpacker: "${_toString(objectToUnpack)}".`);
+                                    ^~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:89604:26: warning: the variable "structuredClone" was not declared in function "createAnimationWithInitialValues"
+    var animationStyle = structuredClone(_config.AnimationsData[animationName...
+                         ^~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:89924:5: warning: the variable "document" was not declared in function "configureWebLayoutAnimations"
+    document.getElementById(PREDEFINED_WEB_ANIMATIONS_ID) !== null) {
+    ^~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90019:27: warning: the variable "HTMLElement" was not declared in function "findDescendantWithExitingAnimation"
+    if (!(node instanceof HTMLElement)) {
+                          ^~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90045:24: warning: the variable "MutationObserver" was not declared in function "addHTMLMutationObserver"
+    var observer = new MutationObserver(mutationsList => {
+                       ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:90090:41: warning: the variable "getComputedStyle" was not declared in function "fixElementPosition"
+...entBorderTopValue = parseInt(getComputedStyle(parent).borderTopWidth);
+                                ^~~~~~~~~~~~~~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:94065:5: warning: the variable "jest" was not declared in arrow function "beforeTest"
+    jest.useFakeTimers();
+    ^~~~
+/home/expo/workingdir/build/frontend/android/app/build/generated/assets/createBundleReleaseJsAndAssets/index.android.bundle:94642:26: warning: the variable "_getAnimationTimestamp" was not declared in function "computeEasingProgress"
+      var elapsedTime = (_getAnimationTimestamp() - startingTimestamp) / 1000;
+                         ^~~~~~~~~~~~~~~~~~~~~~
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild
+> Task :app:preReleaseBuild
+> Task :app:generateReleaseResValues
+> Task :react-native-reanimated:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+> Task :react-native-google-mobile-ads:compileReleaseKotlin FAILED
+e: file:///home/expo/.gradle/caches/8.10.2/transforms/872b03e6e42a27dc98b4faab8b217c70/transformed/play-services-ads-24.2.0-api.jar!/META-INF/java.com.google.android.gms.libs.filecompliance.proto_file_access_api_type_kt_proto_lite.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.9.0.
+e: file:///home/expo/.gradle/caches/8.10.2/transforms/872b03e6e42a27dc98b4faab8b217c70/transformed/play-services-ads-24.2.0-api.jar!/META-INF/third_party.kotlin.protobuf.src.commonMain.kotlin.com.google.protobuf.kotlin_only_for_use_in_proto_generated_code_its_generator_and_tests.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.9.0.
+e: file:///home/expo/.gradle/caches/8.10.2/transforms/872b03e6e42a27dc98b4faab8b217c70/transformed/play-services-ads-24.2.0-api.jar!/META-INF/third_party.kotlin.protobuf.src.commonMain.kotlin.com.google.protobuf.kotlin_shared_runtime.kotlin_moduleModule was compiled with an incompatible version of Kotlin. The binary version of its metadata is 2.1.0, expected version is 1.9.0.
+> Task :app:mapReleaseSourceSetPaths
+> Task :expo-modules-core:compileReleaseKotlin
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':react-native-google-mobile-ads:compileReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+BUILD FAILED in 2m 21s
+180 actionable tasks: 180 executed
+Error: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
+
+Build failed: Gradle build failed with unknown error. See logs for the "Run gradlew" phase for more information.
